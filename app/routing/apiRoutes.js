@@ -46,7 +46,7 @@ module.exports = function (app) {
                 //best match sums
                 if (totalDifference <= bestMatch.friendDifference) {
 
-                    // Reset the best match
+                    
                     bestMatch.name = friends[i].name;
                     bestMatch.photo = friends[i].photo;
                     bestMatch.friendDifference = totalDifference;
